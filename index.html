@@ -1,6 +1,76 @@
 <!DOCTYPE html>
 <html>
-  <body>
-	<meta http-equiv="refresh" content="0; url=https://www.eventbrite.com/e/braincode-mobi2-tickets-15554064626" />
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <title>braincode.mobi - 24h hackaton mobilny</title>
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+        <link rel="stylesheet" href="css/brain.css" />
+        <script>
+                (function(d) {
+                    var config = {
+                    kitId: 'ikz6emw',
+                    scriptTimeout: 3000
+                    },
+                    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+                })(document);
+        </script>
+        <script type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHeNjvpxNkS6Pw3zDKgoKa9LIEL89mUWg">
+        </script>
+        <script type="text/javascript">
+            function initialize() {
+                var mapOptions = {
+                center: { lat: 52.173931692568, lng: 18.8525390625},
+                zoom: 6	,
+                scrollwheel: false,
+                disableDefaultUI: true
+                };
+                var map = new google.maps.Map(document.getElementById('map-canvas'),
+                    mapOptions);
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="content">
+                <p class="logo"><img src="img/braincode.png" alt="brain code"/></p>
+                <h1>24h HACKATON MOBILNY</h1>
+                <p>13-14 marca 2015</p>
+                <p> <a href="https://www.eventbrite.com/e/braincode-mobi2-tickets-15554064626" class="button">Zarejestruj się</a></p>
+            </div>
+        </header>
+        <main>
+        <section id="where" class="where">
+            <div class="content">
+                <h2>Nasze lokalizacje</h2>
+                <p>
+                Dołącz do nas w Poznaniu, Krakowie, Toruniu, Warszawie i Wrocławiu
+                </p>
+            </div>
+            <div id="map-canvas"></div>
+        </section>
+
+        <section id="previous" class="previous">
+            <div class="content">
+                <h2>Poprzednie edycje</h2>
+                <p>Poprzednia edycja hackatonu odbyła się w 2014 roku w Poznaniu.</p>
+                <iframe src="https://www.youtube.com/embed/Wpxm1EN9QgA" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="partners" class="partners">
+            <div class="content">
+                <h2>Partnerzy</h2>
+                <img src="img/partners.png" alt="" />
+                <img src="img/allegrotech.png" alt="">
+            </div>
+        </section>
+        </main>
+        <footer>
+            <div class="content">
+                <p>© braincode.mobi 2015</p>
+            </div>
+        </footer>
+    </div>
+</body>
 </html>
