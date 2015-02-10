@@ -20,23 +20,98 @@
         <script type="text/javascript">
             function initialize() {
                 var mapOptions = {
-                center: { lat: 52.173931692568, lng: 18.8525390625},
-                zoom: 6	,
-                scrollwheel: false,
-                disableDefaultUI: true
+					center: { lat: 52.173931692568, lng: 18.8525390625},
+                	zoom: 6	,
+                	scrollwheel: false,
+                	disableDefaultUI: true
                 };
+                                            
                 var map = new google.maps.Map(document.getElementById('map-canvas'),
                     mapOptions);
+                    
+                var cities = {
+                	'poznan' : {
+                		'marker': new google.maps.Marker({
+							position: new google.maps.LatLng(52.467118, 16.927674),
+							map: map,
+							title: 'BrainCode Mobi #2 @ Poznań'
+						}),
+						'infoWindow' : new google.maps.InfoWindow({
+							content: "<strong>Gdzie</strong>: Wydział Matematyki i Informatyki Uniwersytetu Adama Mickiewicza<br /><br /><strong>Ulica</strong>: Umultowska 87<br /><br /><strong>Start</strong>: 13.03.2015 17:00"
+						})
+                	},
+                	
+                	'torun': {
+                		'marker': new google.maps.Marker({
+							position: new google.maps.LatLng(53.010038, 18.594946),
+							map: map,
+							title: 'BrainCode Mobi #2 @ Toruń'
+						}),
+						'infoWindow': new google.maps.InfoWindow({
+      						content: "<strong>Gdzie</strong>: Wydział Matematyki i Informatyki Uniwersytetu Mikołaja Kopernika<br /><br /><strong>Ulica</strong>: Chopina 12/18<br /><br /><strong>Start</strong>: 13.03.2015 17:00"
+		  				})					
+                	},
+                	
+                	'warszawa': {
+                		'marker': new google.maps.Marker({
+							position: new google.maps.LatLng(52.211674, 20.981500),
+							map: map,
+							title: 'BrainCode Mobi #2 @ Warszawa'
+						}),
+						'infoWindow': new google.maps.InfoWindow({
+      						content: "<strong>Gdzie</strong>: Wydział Matematyki, Informatyki i Mechaniki Uniwersytetu Warszawskiego<br /><br /><strong>Ulica</strong>: Stefana Banacha 2<br /><br /><strong>Start</strong>: 13.03.2015 17:00"
+		  				})	
+                	},
+                	
+                	'krakow': {
+                		'marker': new google.maps.Marker({
+							position: new google.maps.LatLng(50.067048, 19.915253),
+							map: map,
+							title: 'BrainCode Mobi #2 @ Kraków'
+						}),
+						'infoWindow': new google.maps.InfoWindow({
+      						content: "<strong>Gdzie</strong>: Wydział Informatyki, Elektroniki i Telekomunikacji, Katedra Telekomunikacji, AGH<br /><br /><strong>Ulica</strong>: Czarnowiejska 78<br /><br /><strong>Start</strong>: 13.03.2015 17:00"
+		  				})
+                	}
+                }
+                
+                var allCities = ['poznan', 'krakow', 'torun', 'warszawa'];
+                
+                var closeOther = function(cities, selected) {
+                	allCities.forEach(function(city) {
+                		if (city != selected) {
+                			console.log(city);
+                			console.log(cities);
+                			cities[city]['infoWindow'].close();
+                		}
+                	});
+                };
+               
+                allCities.forEach(function(city) {                    
+                    var init = function(current) {
+
+		  				google.maps.event.addListener(cities[current]['marker'], 'click', function() {		  						  				
+    						cities[current].infoWindow.open(map, cities[current]['marker']);
+    						
+    						closeOther(cities, current);
+    						
+    						map.setZoom(15);
+    						map.setCenter(cities[current]['marker'].getPosition());
+  						});
+  						
+  						google.maps.event.addListener(cities[current]['infoWindow'], 'closeclick', function(){
+   							map.setZoom(6);
+   							map.setCenter(new google.maps.LatLng(52.173931692568, 18.8525390625));
+   							closeOther(cities, "");
+						});  						  						  						  						
+  					};
+  					
+  					init (city);
+  					
+  				});  					  					  				
             }
+            
             google.maps.event.addDomListener(window, 'load', initialize);
-
-
-
-// 50.067048, 19.915253 - Kraków: Wydział Informatyki, Elektroniki i Telekomunikacji, Katedra Telekomunikacji Akademii Górniczo-Hutniczej, ul. Czarnowiejska 78
-// 52.467118, 16.927674 - Poznań: Wydział Matematyki i Informatyki Uniwersytetu Adama Mickiewicza, ul. Umultowska 87,
-// 53.010038, 18.594946 - Toruń: Wydział Matematyki i Informatyki Uniwersytetu Mikołaja Kopernika, ul. Chopina 12/18
-// 52.211674, 20.981500 - Warszawa: Wydział Matematyki, Informatyki i Mechaniki Uniwersytetu Warszawskiego, ul. Stefana Banacha 2
-
         </script>
     </head>
     <body>
@@ -53,7 +128,7 @@
             <div class="content">
                 <h2>Nasze lokalizacje</h2>
                 <p>
-                Dołącz do nas w Poznaniu, Krakowie, Toruniu, Warszawie i Wrocławiu
+                Dołącz do nas w Poznaniu, Krakowie, Toruniu i Warszawie!
                 </p>
                    <div id="map-canvas"></div>
             </div>
@@ -62,7 +137,7 @@
         <section id="previous" class="previous">
             <div class="content">
                 <h2>Poprzednie edycje</h2>
-                <p>BrainCode Mobi #1 odbył się w 2014 roku na Politechnice Poznańskiej. W roku 2015 rozszerzamy wydarzenie do pięciu lokalizacji.</p>
+                <p>BrainCode Mobi #1 odbył się w 2014 roku na Politechnice Poznańskiej. W roku 2015 rozszerzamy wydarzenie do czterech lokalizacji.</p>
                 <iframe src="https://www.youtube.com/embed/Wpxm1EN9QgA" frameborder="0" allowfullscreen></iframe>
             </div>
         </section>
