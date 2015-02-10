@@ -96,3 +96,11 @@ section p {
     margin: 0;
     padding: 0;
 }
+
+a.city {
+	text-decoration: underline;
+}
+
+a.city:hover {
+	cursor: pointer;
+}

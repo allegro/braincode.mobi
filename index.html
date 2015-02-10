@@ -34,7 +34,8 @@
                 		'marker': new google.maps.Marker({
 							position: new google.maps.LatLng(52.467118, 16.927674),
 							map: map,
-							title: 'BrainCode Mobi #2 @ Poznań'
+							title: 'BrainCode Mobi #2 @ Poznań',
+							animation: google.maps.Animation.DROP
 						}),
 						'infoWindow' : new google.maps.InfoWindow({
 							content: "<strong>Gdzie</strong>: Wydział Matematyki i Informatyki Uniwersytetu Adama Mickiewicza<br /><br /><strong>Ulica</strong>: Umultowska 87<br /><br /><strong>Start</strong>: 13.03.2015 17:00"
@@ -45,7 +46,8 @@
                 		'marker': new google.maps.Marker({
 							position: new google.maps.LatLng(53.010038, 18.594946),
 							map: map,
-							title: 'BrainCode Mobi #2 @ Toruń'
+							title: 'BrainCode Mobi #2 @ Toruń',
+							animation: google.maps.Animation.DROP
 						}),
 						'infoWindow': new google.maps.InfoWindow({
       						content: "<strong>Gdzie</strong>: Wydział Matematyki i Informatyki Uniwersytetu Mikołaja Kopernika<br /><br /><strong>Ulica</strong>: Chopina 12/18<br /><br /><strong>Start</strong>: 13.03.2015 17:00"
@@ -56,7 +58,8 @@
                 		'marker': new google.maps.Marker({
 							position: new google.maps.LatLng(52.211674, 20.981500),
 							map: map,
-							title: 'BrainCode Mobi #2 @ Warszawa'
+							title: 'BrainCode Mobi #2 @ Warszawa',
+							animation: google.maps.Animation.DROP
 						}),
 						'infoWindow': new google.maps.InfoWindow({
       						content: "<strong>Gdzie</strong>: Wydział Matematyki, Informatyki i Mechaniki Uniwersytetu Warszawskiego<br /><br /><strong>Ulica</strong>: Stefana Banacha 2<br /><br /><strong>Start</strong>: 13.03.2015 17:00"
@@ -67,7 +70,8 @@
                 		'marker': new google.maps.Marker({
 							position: new google.maps.LatLng(50.067048, 19.915253),
 							map: map,
-							title: 'BrainCode Mobi #2 @ Kraków'
+							title: 'BrainCode Mobi #2 @ Kraków',
+							animation: google.maps.Animation.DROP
 						}),
 						'infoWindow': new google.maps.InfoWindow({
       						content: "<strong>Gdzie</strong>: Wydział Informatyki, Elektroniki i Telekomunikacji, Katedra Telekomunikacji, AGH<br /><br /><strong>Ulica</strong>: Czarnowiejska 78<br /><br /><strong>Start</strong>: 13.03.2015 17:00"
@@ -77,39 +81,51 @@
                 
                 var allCities = ['poznan', 'krakow', 'torun', 'warszawa'];
                 
-                var closeOther = function(cities, selected) {
+                var closeOther = function(selected) {
                 	allCities.forEach(function(city) {
                 		if (city != selected) {
-                			console.log(city);
-                			console.log(cities);
                 			cities[city]['infoWindow'].close();
                 		}
                 	});
+                };
+                
+                window.zoomTo = function(city) {
+                	cities[city].infoWindow.open(map, cities[city]['marker']);
+    						
+    				closeOther(city);
+    						
+    				map.setZoom(15);
+    				map.setCenter(cities[city]['marker'].getPosition());
+    				
+    				return false;
                 };
                
                 allCities.forEach(function(city) {                    
                     var init = function(current) {
 
 		  				google.maps.event.addListener(cities[current]['marker'], 'click', function() {		  						  				
-    						cities[current].infoWindow.open(map, cities[current]['marker']);
     						
-    						closeOther(cities, current);
-    						
-    						map.setZoom(15);
-    						map.setCenter(cities[current]['marker'].getPosition());
   						});
   						
   						google.maps.event.addListener(cities[current]['infoWindow'], 'closeclick', function(){
    							map.setZoom(6);
    							map.setCenter(new google.maps.LatLng(52.173931692568, 18.8525390625));
-   							closeOther(cities, "");
+   							closeOther("");
 						});  						  						  						  						
   					};
   					
   					init (city);
   					
-  				});  					  					  				
-            }
+  				});  	
+  				
+  				var allLinks = document.getElementsByClassName('city');
+  				
+				for (var i = 0; i < allLinks.length; i++) {				
+					allLinks[i].onclick = function(it) {
+						window.zoomTo(this.getAttribute('city'));
+					}
+				}
+			}
             
             google.maps.event.addDomListener(window, 'load', initialize);
         </script>
@@ -128,7 +144,7 @@
             <div class="content">
                 <h2>Nasze lokalizacje</h2>
                 <p>
-                Dołącz do nas w Poznaniu, Krakowie, Toruniu i Warszawie!
+                Dołącz do nas w <a city='poznan' class='city'>Poznaniu</a>, <a city='krakow' class='city'>Krakowie</a>, <a city='torun' class='city'>Toruniu</a> i <a city='warszawa' class='city'>Warszawie</a>!
                 </p>
                    <div id="map-canvas"></div>
             </div>
