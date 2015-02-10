@@ -21,7 +21,7 @@
             function initialize() {
                 var mapOptions = {
 					center: { lat: 52.173931692568, lng: 18.8525390625},
-                	zoom: 6	,
+                	zoom: 6,
                 	scrollwheel: false,
                 	disableDefaultUI: true
                 };
@@ -79,7 +79,12 @@
                 	}
                 }
                 
-                var allCities = ['poznan', 'krakow', 'torun', 'warszawa'];
+                var allCities = [
+                    'poznan',
+                    'krakow',
+                    'torun',
+                    'warszawa'
+                ];
                 
                 var closeOther = function(selected) {
                 	allCities.forEach(function(city) {
@@ -89,28 +94,28 @@
                 	});
                 };
                 
-                window.zoomTo = function(city) {
+                window.centerOnCity = function(city) {
                 	cities[city].infoWindow.open(map, cities[city]['marker']);
     						
     				closeOther(city);
     						
-    				map.setZoom(15);
-    				map.setCenter(cities[city]['marker'].getPosition());
-    				
+					map.setZoom(15);
+    				map.panTo(cities[city]['marker'].getPosition());
+                
     				return false;
                 };
                
                 allCities.forEach(function(city) {                    
                     var init = function(current) {
 
-		  				google.maps.event.addListener(cities[current]['marker'], 'click', function() {		  						  				
-    						
+		  				google.maps.event.addListener(cities[current]['marker'], 'click', function() {
+                            centerOnCity(current);
   						});
   						
   						google.maps.event.addListener(cities[current]['infoWindow'], 'closeclick', function(){
-   							map.setZoom(6);
+   							map.setZoom(7);
    							map.setCenter(new google.maps.LatLng(52.173931692568, 18.8525390625));
-   							closeOther("");
+   							closeOther(null);
 						});  						  						  						  						
   					};
   					
@@ -118,13 +123,11 @@
   					
   				});  	
   				
-  				var allLinks = document.getElementsByClassName('city');
-  				
-				for (var i = 0; i < allLinks.length; i++) {				
-					allLinks[i].onclick = function(it) {
-						window.zoomTo(this.getAttribute('city'));
-					}
-				}
+  				Array.prototype.forEach.call(document.querySelectorAll('a.city'), function(element) {
+					element.addEventListener('click', function() {
+						window.centerOnCity(this.getAttribute('city'));
+					});
+				});
 			}
             
             google.maps.event.addDomListener(window, 'load', initialize);
