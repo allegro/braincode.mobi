@@ -19,6 +19,7 @@ body {
 header {
     text-align: center;
     line-height: 1.2;
+    padding-bottom: 2rem;
 }
 header img {
     width: 80%;
@@ -81,7 +82,7 @@ section p {
     display: inline-block;
     max-width: 400px;
     width: 94%;
-    margin: 0 1rem 1rem 0;
+    margin: 1rem 1rem 1rem 0;
     border-radius: 1rem;
     border: 1rem solid rgba(0, 0, 0, 0.27);
 }
