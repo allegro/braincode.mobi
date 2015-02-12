@@ -7,13 +7,13 @@
         <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
         <link rel="stylesheet" href="css/brain.css" />
         <script>
-                        (function(d) {
-                            var config = {
-                            kitId: 'ikz6emw',
-                            scriptTimeout: 3000
-                            },
-                            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-                        })(document);
+                                (function(d) {
+                                    var config = {
+                                    kitId: 'ikz6emw',
+                                    scriptTimeout: 3000
+                                    },
+                                    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+                                })(document);
         </script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHeNjvpxNkS6Pw3zDKgoKa9LIEL89mUWg"></script>
     </head>
@@ -31,7 +31,7 @@
             <div class="content">
                 <h2>Nasze lokalizacje</h2>
                 <p id="cities" class="cities">
-                Dołącz do nas w <span data-city="poznan">Poznaniu</span>, <span data-city="krakow">Krakowie</span>, <span data-city="torun">Toruniu</span> 
+                Dołącz do nas w <span data-city="poznan">Poznaniu</span>, <span data-city="krakow">Krakowie</span>, <span data-city="torun">Toruniu</span>
                 i <span data-city="warszawa">Warszawie</span>!
                 </p>
                 <div id="map-canvas"></div>
@@ -47,8 +47,15 @@
         <section id="partners" class="partners">
             <div class="content">
                 <h2>Partnerzy</h2>
-                <img src="img/partners.png" alt="" />
-                <a href="http://allegrotech.io"><img src="img/allegrotech.png" alt="allegrotech.io" title="allegrotech.io" /></a>
+                <ul class="partners-list">
+                    <li class="p1"><a href="http://www.kt.agh.edu.pl/">Kategra Telekomunikacji AGH</a></li>
+                    <li class="p2"><a href="https://amu.edu.pl/">Uniwersytet im. Adama Mickiewicza w Poznaniu</a></li>
+                    <li class="p3"><a href="http://www.mimuw.edu.pl/">Wydział Matematyki, Informatyki i Mechaniki Uniwersytetu Warszawskiego</a></li>
+                    <li class="p4"><a href="http://www.agh.edu.pl/">Akademia Górniczo-Hutnicza w Krakowie</a></li>
+                    <li class="p5"><a href="http://www.umk.pl/">Uniwersytet Mikołaja Kopernika w Toruniu</a></li>
+                </ul>
+                <a href="http://allegrotech.io"><img src="img/allegrotech.png" alt="allegro tech"/></a>
+
             </div>
         </section>
         </main>
