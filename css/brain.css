@@ -158,3 +158,8 @@ section p {
 .partners-list a:hover {
 	background: rgba(255, 255, 255, 0.2);
 }
+
+footer .content {
+	text-align: center;
+	font-size: 1.6rem;
+}
