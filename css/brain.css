@@ -1,175 +1,175 @@
 html {
-	font-size: 50%;
+    font-size: 50%;
 }
-@media all and (min-width:990px) {
-	html {
-		font-size: 62.5%;
-	}
+@media all and (min-width: 990px) {
+    html {
+        font-size: 62.5%;
+   }
 }
 html, body {
-	margin: 0;
-	padding: 0
+    margin: 0;
+    padding: 0
 }
 body {
-	font: 2rem/1.5 "alwyn-new-web", arial, sans-serif;
-	background: #82629a url('../img/bg.jpg') repeat-x -50% 0;
-	background-attachment: fixed;
-	color: #fff;
+    font: 2rem/1.5"alwyn-new-web", arial, sans-serif;
+    background: #82629a url('../img/bg.jpg') repeat-x -50% 0;
+    background-attachment: fixed;
+    color: #fff;
 }
 header {
-	text-align: center;
-	line-height: 1.2;
+    text-align: center;
+    line-height: 1.2;
 }
 header img {
-	width: 80%;
-	margin: 1rem 0;
-	max-width: 400px;
+    width: 80%;
+    margin: 1rem 0;
+    max-width: 400px;
 }
 header h1, header p {
-	margin: 2rem 0;
-	padding: 0
+    margin: 2rem 0;
+    padding: 0
 }
 header h1 {
-	font-size: 5rem;
-	text-shadow: -1px -1px 0 #bbb, -2px -2px 0 #999;
+    font-size: 5rem;
+    text-shadow: -1px -1px 0 #bbb, -2px -2px 0 #999;
 }
 header p {
-	font-size: 2rem;
+    font-size: 2rem;
 }
 .content {
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 1rem 1rem 2rem;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem 1rem 2rem;
 }
 .button {
-	display: inline-block;
-	border: 1px solid rgba(255, 255, 255, 0.7);
-	padding: 1rem;
-	margin: 1rem 0;
-	text-decoration: none;
-	color: #fff;
-	background: rgba(5, 5, 5, 0.28);
-	border-radius: 5px;
-	transition: 0.6s;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 1rem;
+    margin: 1rem 0;
+    text-decoration: none;
+    color: #fff;
+    background: rgba(5, 5, 5, 0.28);
+    border-radius: 5px;
+    transition: 0.6s;
 }
-.button:hover {
-	background: rgba(5, 5, 5, 0.58);
+.button: hover {
+    background: rgba(5, 5, 5, 0.58);
 }
 iframe {
-	width: 100%;
-	height: 315px;
-	display: block;
-	margin: 0 auto;
-	height: 450px;
+    width: 100%;
+    height: 315px;
+    display: block;
+    margin: 0 auto;
+    height: 450px;
 }
 h2 {
-	font-size: 3rem;
+    font-size: 3rem;
 }
 section {
-	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 section p {
-	font-weight: 300;
-	font-size: 1.8rem;
+    font-weight: 300;
+    font-size: 1.8rem;
 }
-
-.about{
-	background: rgba(0,0,0, 0.5);
+.about {
+    box-shadow: -1px 0 10px #111;
+    background: rgba(0, 0, 0, 0.5);
+    color: #eee;
 }
-
-.lead p{
-	font-weight: 400;
-	text-shadow: 1px 1px 0 navy;
+.gallery img {
+    display: inline-block;
+    max-width: 45%;
+    margin: 0 1rem 1rem 0;
+    border-radius: 1rem;
+    border: 1rem solid rgba(0, 0, 0, 0.27);
 }
-
+.lead p {
+    font-weight: 400;
+    text-shadow: 1px 1px 0 navy;
+}
 .where {
-	background: #fff;
-	color: #333;
+    background: #fff;
+    color: #333;
 }
 .previous {
-	background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
 }
-
 #map-canvas {
-	height: 400px;
-	margin: 0;
-	padding: 0;
-	border: 2px solid #ddd;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #ddd;
 }
 .cities span {
-	display: inline-block;
-	background: #eee;
-	cursor: pointer;
-	padding: 0 5px;
-	margin: 1px 0;
-	border-radius: 3px;
+    display: inline-block;
+    background: #eee;
+    cursor: pointer;
+    padding: 0 5px;
+    margin: 1px 0;
+    border-radius: 3px;
 }
-.cities span:hover {
-	background: #ddd
+.cities span: hover {
+    background: #ddd
 }
-
-
 .partners {
-	background: rgba(255, 255, 255, 1);
-	color: #333;
+    background: rgba(255, 255, 255, 1);
+    color: #333;
 }
 .partners img {
-	display: block;
-	vertical-align: middle;
-	max-width: 90%;
-	margin: 0 auto;
+    display: block;
+    vertical-align: middle;
+    max-width: 90%;
+    margin: 0 auto;
 }
 .partners ul + a > img {
-	margin: 1rem auto;
+    margin: 1rem auto;
 }
-
-.partners ul + a > img:hover {
-	opacity: 0.8;
+.partners ul + a > img: hover {
+    opacity: 0.8;
 }
-
 .partners-list, .partners-list li {
-	padding: 0;
-	margin: 0;
-	list-style: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 .partners-list {
-	display: block;
-	margin: 0 auto;
-	height: 105px;
-	width: 486px;
-	max-width: 90%;
-	background: url('../img/partners.png') no-repeat;
-	font-size: 0;
-	background-size: 100%;
+    display: block;
+    margin: 0 auto;
+    height: 105px;
+    width: 486px;
+    max-width: 90%;
+    background: url('../img/partners.png') no-repeat;
+    font-size: 0;
+    background-size: 100%;
 }
 .partners-list li {
-	display: inline-block;
-	height: 100%;
-	width: 19%;
-	text-indent: -9999px;
+    display: inline-block;
+    height: 100%;
+    width: 19%;
+    text-indent: -9999px;
 }
 .partners-list .p2 {
-	width: 17%;
+    width: 17%;
 }
 .partners-list .p3 {
-	width: 32%;
+    width: 32%;
 }
 .partners-list .p4 {
-	width: 15%;
+    width: 15%;
 }
 .partners-list .p5 {
-	width: 17%;
+    width: 17%;
 }
 .partners-list a {
-	display: block;
-	width: 100%;
-	height: 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
-.partners-list a:hover {
-	background: rgba(255, 255, 255, 0.2);
+.partners-list a: hover {
+    background: rgba(255, 255, 255, 0.2);
 }
-
 footer .content {
-	text-align: center;
-	font-size: 1.6rem;
+    text-align: center;
+    font-size: 1.6rem;
 }
