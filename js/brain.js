@@ -42,10 +42,9 @@
                 street: "Czarnowiejska 78",
                 start: "13.03.2015 17:00"
             }];
-
-     
             var cities = citiesInfo.map(function(city) {
-                var content = "<strong>Gdzie: </strong>" + city.place + "<br/><strong>Ulica: </strong>" + city.street + "<br/><strong>Start: </strong>" + city.start;
+                var url = "http://maps.google.com/maps?ll=" + city.position.k + "," + city.position.D + "&z=14&t=m&hl=pl&gl=US&q=" + city.place;
+                var content = "<strong>Gdzie: </strong>" + city.place + "<br/><strong>Ulica: </strong>" + city.street + "<br/><strong>Start: </strong>" + city.start + "<br/><a href=" + encodeURI(url) + ">Zobacz w Mapach Google.</a>";
                 return {
                     marker: new google.maps.Marker({
                         position: city.position,
