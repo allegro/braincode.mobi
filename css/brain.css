@@ -72,8 +72,18 @@ section p {
 	font-weight: 300;
 	font-size: 1.8rem;
 }
+
+.about{
+	background: rgba(0,0,0, 0.5);
+}
+
+.lead p{
+	font-weight: 400;
+	text-shadow: 1px 1px 0 navy;
+}
+
 .where {
-	background: rgba(255, 255, 255, 1);
+	background: #fff;
 	color: #333;
 }
 .previous {
