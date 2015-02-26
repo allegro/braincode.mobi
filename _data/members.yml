@@ -232,4 +232,16 @@ jaroslaw.bulat:
     name: Jarosław Bułat
     bio: "Jarosław Bułat jest doświadczonym programistą projektującym złożone systemy do cyfrowego przetwarzania danych. Doktorat uzyskał w dziedzinie Telekomunikacja w 2006 roku. Obecnie pracuje na stanowisku Adiunkta w Katedrze Telekomunikacji AGH. Pasjonuje się systemami przetwarzania obrazu, dźwięku i innych wielowymiarowych sygnałów. Najbardziej złożone systemy zaprojektował używając narzędzi: C/C++, Matlab, Linux, Android (NDK/SDK), OpenCV, MPI-MPICH, Qt, w tym system BRONCHOVID służący do akwizycji, analizy i wspomagania diagnozowania medycznego, w ramach projektu SARACEN współtworzył odtwarzacz 3D strumieniujący sygnał wideo za pomocą sieci Torrent, w projekcie TAPAS zaprojektował system do wykrywania przeszkód dedykowany dla osoby niewidomej oparty na stereowizji zrealizowanej wyłącznie programowo na smartfonie z systemem Android. Jarosław Bułat projektuje również systemy wbudowane, urządzenia pomiarowe, automatykę domową oraz fascynują go tematy związane z rozwojem techniki, jej wpływu na ludzi zwłaszcza w obrębie nurtu transhumanizmu. Uważa, że inżynier powinien optymalizować wszelkie procesy na które ma wpływ :)"
     role: Jury
-    city: Kraków                                                                      
+    city: Kraków
+    
+lukasz.kuczborski:
+    name: Łukasz Kuczborski
+    bio: iOS Developer w Grupie Allegro. Założyciel i współorganizator Swift Warsaw. Gdy nie koduje prawdopodobnie robi ludziom zdjęcia.	
+    role: Mentor
+    city: Warszawa
+    
+rafal.polomka:
+    name: Rafał Połomka
+    bio: Jestem programistą z kilkuletnim doświadczeniem, od 4 lat pracuję w Allegro. Zawodowo interesuje mnie budowanie skalowalnych rozwiązań, prywatnie lubię aktywne formy wypoczynku, w szczególności piesze wędrówki po górach.	
+    role: Prelegent
+    city: Poznań                                                                                
