@@ -244,4 +244,12 @@ rafal.polomka:
     name: Rafał Połomka
     bio: Jestem programistą z kilkuletnim doświadczeniem, od 4 lat pracuję w Allegro. Zawodowo interesuje mnie budowanie skalowalnych rozwiązań, prywatnie lubię aktywne formy wypoczynku, w szczególności piesze wędrówki po górach.	
     role: Prelegent
-    city: Poznań                                                                                
+    city: Poznań
+    
+mateusz.gajewski:
+    name: Mateusz Gajewski
+    bio: Architekt, innowator, zawadiaka. Główne zainteresowania to HA, failure isolation, skalowalność, programowanie reaktywne i systemy web-scale.
+    role: Mentor
+    city: Warszawa
+    
+                                                                                       
