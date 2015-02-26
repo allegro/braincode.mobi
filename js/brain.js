@@ -95,4 +95,64 @@
             });
         }
         google.maps.event.addDomListener(window, 'load', initialize);
+
+
+        
+        var peopleList = document.querySelector('.people-list');
+        var peopleNode = [].slice.call(document.querySelectorAll('.people-list-item'));
+        var rememberCity = function(city) {
+            localStorage.city = city;
+        };
+        var forgetCity = function() {
+            localStorage.clear();
+        };
+        var getCity = function() {
+            return localStorage.city ? localStorage.city : '';
+        };
+        var showPeopleContainer = function(arr, index) {
+            if (index === arr.length - 1) {
+                setTimeout(function() {
+                    peopleList.classList.remove('hide');
+                }, 400);
+            }
+        };
+        var showAllPeople = function(city) {
+            peopleList.classList.add('hide');
+            peopleNode.forEach(function(item, index, arr) {
+                item.classList.remove('remove');
+                showPeopleContainer(arr, index);
+            });
+            forgetCity();
+        };
+        var showPeopleFromCity = function(city) {
+            peopleList.classList.add('hide');
+            peopleNode.forEach(function(item, index, arr) {
+                var itemMeta = item.getAttribute('data-meta').split(',');
+                if (itemMeta[1] === city) {
+                    item.classList.remove('remove');
+                } else {
+                    item.classList.add('remove');
+                }
+                showPeopleContainer(arr, index);
+            });
+            rememberCity(city);
+        };
+        var peopleInit = function() {
+            var city = getCity();
+            if (city !== '') {
+                showPeopleFromCity(city);
+            }
+            document.getElementById('city-list').addEventListener('change', function(e) {
+                var el = e.target;
+                if (el.tagName === 'INPUT') {
+                    var city = el.value;
+                    if (city !== '') {
+                        showPeopleFromCity(city);
+                    } else {
+                        showAllPeople();
+                    }
+                }
+            });
+        };
+        peopleInit();
     })();
