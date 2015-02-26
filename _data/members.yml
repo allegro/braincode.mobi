@@ -96,13 +96,13 @@ oskar.leszczynski:
     
 jedrzej.krysztofiak:
     name: Jędrzej Krysztofiak
-    bio: Łącze pracę programistów z QA i wychodzi z tego niezły kawałek softu. Hobby: kolarstwo szosowe, pentesting, wkurzanie devów. Człowiek Endpoint.
+    bio: Łącze pracę programistów z QA i wychodzi z tego niezły kawałek softu. Hobby - kolarstwo szosowe, pentesting, wkurzanie devów. Człowiek Endpoint.
     role: Mentor
     city: Poznań                            
     
 krzysiek.kowalkowski:
     name: Krzysiek Kowalkowski
-    bio: UX. Sfokusowany na mobilnych apkach. Wtrącający się w tematy biznesowe ogarniacz chaosu. Uwielbia zadawać pytania: "dlaczego?" i "po co?". Cechy szczególnie rozwijane: empatia i inteligencja emocjonalna.	
+    bio: "UX. Sfokusowany na mobilnych apkach. Wtrącający się w tematy biznesowe ogarniacz chaosu. Uwielbia zadawać pytania: \"dlaczego?\" i \"po co?\". Cechy szczególnie rozwijane: empatia i inteligencja emocjonalna."
     role: Mentor
     city: Warszawa                        
     
@@ -230,6 +230,6 @@ bartlomiej.kwiatkowski:
     
 jaroslaw.bulat:
     name: Jarosław Bułat
-    bio: Jarosław Bułat jest doświadczonym programistą projektującym złożone systemy do cyfrowego przetwarzania danych. Doktorat uzyskał w dziedzinie Telekomunikacja w 2006 roku. Obecnie pracuje na stanowisku Adiunkta w Katedrze Telekomunikacji AGH. Pasjonuje się systemami przetwarzania obrazu, dźwięku i innych wielowymiarowych sygnałów. Najbardziej złożone systemy zaprojektował używając narzędzi: C/C++, Matlab, Linux, Android (NDK/SDK), OpenCV, MPI-MPICH, Qt, w tym system BRONCHOVID służący do akwizycji, analizy i wspomagania diagnozowania medycznego, w ramach projektu SARACEN współtworzył odtwarzacz 3D strumieniujący sygnał wideo za pomocą sieci Torrent, w projekcie TAPAS zaprojektował system do wykrywania przeszkód dedykowany dla osoby niewidomej oparty na stereowizji zrealizowanej wyłącznie programowo na smartfonie z systemem Android. Jarosław Bułat projektuje również systemy wbudowane, urządzenia pomiarowe, automatykę domową oraz fascynują go tematy związane z rozwojem techniki, jej wpływu na ludzi zwłaszcza w obrębie nurtu transhumanizmu. Uważa, że inżynier powinien optymalizować wszelkie procesy na które ma wpływ :)
+    bio: "Jarosław Bułat jest doświadczonym programistą projektującym złożone systemy do cyfrowego przetwarzania danych. Doktorat uzyskał w dziedzinie Telekomunikacja w 2006 roku. Obecnie pracuje na stanowisku Adiunkta w Katedrze Telekomunikacji AGH. Pasjonuje się systemami przetwarzania obrazu, dźwięku i innych wielowymiarowych sygnałów. Najbardziej złożone systemy zaprojektował używając narzędzi: C/C++, Matlab, Linux, Android (NDK/SDK), OpenCV, MPI-MPICH, Qt, w tym system BRONCHOVID służący do akwizycji, analizy i wspomagania diagnozowania medycznego, w ramach projektu SARACEN współtworzył odtwarzacz 3D strumieniujący sygnał wideo za pomocą sieci Torrent, w projekcie TAPAS zaprojektował system do wykrywania przeszkód dedykowany dla osoby niewidomej oparty na stereowizji zrealizowanej wyłącznie programowo na smartfonie z systemem Android. Jarosław Bułat projektuje również systemy wbudowane, urządzenia pomiarowe, automatykę domową oraz fascynują go tematy związane z rozwojem techniki, jej wpływu na ludzi zwłaszcza w obrębie nurtu transhumanizmu. Uważa, że inżynier powinien optymalizować wszelkie procesy na które ma wpływ :)"
     role: Jury
     city: Kraków                                                                      
