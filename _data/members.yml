@@ -1,0 +1,100 @@
+rafal.myslek:
+    name: Rafał Mysłek
+    bio: Rafał is a software engineer with 10+ years of experience in Java/Spring technologies. He is an enthusiast of modern, lightweight (Microservices), distributed (Cloud), scalable (NoSQL) solutions. At Allegro, he leads a software development team delivering solutions for the financial department.
+    twitter: rmyslek
+    role: Juror
+    city: Warszawa
+
+rafal.glowinski:
+    name: Rafał Głowiński
+    bio: Rafał is an experienced software developer who has spent most of his career working in Java and related technologies. His areas of interest include code quality assurance, highly scalable, cloud-oriented architectures and all aspects of system’s performance analysis. At Allegro, he leads a software development team delivering solutions for the financial department.
+    role: Prelegent
+    city: Warszawa
+
+michal.kosmulski:
+    name: Michał Kosmulski
+    bio: Michał is interested in all things high-performance, whether it be low-level stuff like analyzing how OS caches affect I/O operations or high-level like proper application design and functional programming. At Allegro, he works in a team which develops software for the financial department but he also likes to mess around with the core libraries shared by different teams.
+    role: Juror
+    city: Warszawa
+
+bartosz.walacik:
+    name: Bartosz Walacik
+    bio: A Software Craftsman with 10+ years of professional experience. He focused on lightweight and modern technologies around JVM. At Allegro, he works as a development team leader, delivering marketing intelligence solutions. Leader of [JaVers](http://javers.org) open source project. Spock advocate. Lately, editor in chief of [allegrotech.io/blog](http://allegrotech.io/blog).
+    twitter: bartoszwalacik
+    role: Juror
+    city: Poznań
+
+andrzej.winnicki:
+    name: Andrzej Winnicki
+    bio: In Allegro Group since 2013. Software Engineer with 7 years’ experience building code, architecture and technical solutions. Big fan of Agile movement, Scrum framework, Lean Startup and customer-oriented development. Focused on improving processes, interactions inside teams and applications’ user experience.
+    twitter: andrzejwinnicki
+    role: Juror
+    city: Kraków
+
+
+jaroslaw.grabowski:
+    name: Jarosław Grabowski
+    bio: Jarek works at Allegro Group building big data collecting and processing system. For over three years his daily job has been to implement and troubleshoot Pig, Hive and Cascading jobs run on one of the biggest Hadoop clusters in Poland.
+    role: Mentor
+    city: Toruń
+
+krzysztof.kocel:
+    name: Krzysztof Kocel
+    bio: Krzysztof works at Allegro Group since 2012. He is interested in mobile security and reducing data usage. At Allegro, his main responsibility is developement of otoMoto and otoDom mobile applications.
+    role: Juror
+    city: Warszawa
+
+mateusz.gajewski:
+    name: Mateusz 'Serafin' Gajewski
+    bio: 'Mateusz is a solutions architect responsible for financial and payments systems. His main areas of research interest are: scalable, distributed computing in cloud environments, reactive programming and failure resilience.'
+    twitter: wendigo
+    role: Mentor
+    city: Poznań
+
+szymon.tur:
+    name: Szymon Tur
+    bio: Szymon is an iOS developer with several years of experience on this platform and web development background. Enthusiast of user friendly mobile applications and modern web solutions. At Allegro Szymon is a part of the team which is responsible for development of the iOS application for buyers.
+    twitter: szymon_t
+    role: Prelegent
+    city: Warszawa
+
+filip.marszelewski:
+    name: Filip Marszelewski
+    bio: Software Development Lead at the team responsible for Allegro listing. Believes that developing software is not only coding and success depends also on many non-technical factors like understanding user needs.
+    role: Mentor
+    city: Poznań
+
+kamil.piska:
+    name: Kamil Piska
+    bio: Kamil is a software engineer with 5+ years of professional experience. He is interested in creating distributed, scalable and fault-tolerant web applications using software design patterns and clean code rules. At Allegro, he works in a team which develops solutions for the financial department.
+    role: Prelegent
+    city: Toruń
+
+krzysztof.debski:
+    name: Krzysztof Debski
+    bio: Technical enthusiast, software engineer and product owner of Service Bootstrap developed in Allegro. He is open to all new technologies and programming languages and he has no fear to work on legacy systems and rewrite it in modern way.
+    twitter: debskichris
+    role: Juror
+    city: Kraków
+
+bartlomiej.ignasiak:
+    name: Bartłomiej Ignasiak
+    bio: At Allegro Group since 2009. At work he is interested in highly scalable architectures, microservices, Cassandra database, all technologies around JVM and all aspects of software creation. After hours he writes games and AI systems. At Allegro, he is a Solutions Architect for the users domain.
+    role: Prelegent
+    city: Toruń
+
+ewa.bugajska:
+    name: Ewa Bugajska
+    bio: Ewa is a software engineer with 6+ years of professional experience in Java technologies. She is a big fan of clean code. Believes that programming should be more promoted and we should encourage children to learn it, as it develops logical thinking. At Allegro, she works in a team which develops solutions for the financial department.
+    role: Mentor
+    city: Kraków
+
+zbyszko.papierski:
+    name: Zbyszko Papierski
+    bio: JVM developer with 8 years of professional experience. He's interested in topics related to search engines, cloud computing and parallel computing. At Allegro, he works as solutions architect, mostly in areas related to searching.
+    twitter: ZPapierski
+    role: Juror
+    city: Toruń
+
+
+

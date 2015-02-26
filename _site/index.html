@@ -1,6 +1,3 @@
----
-layout: default
----
 <!DOCTYPE html>
 <html>
     <head>
@@ -165,23 +162,203 @@ layout: default
                 </ul>
                 <div class="people-list-container">
                 <ul class="people-list">
-                    {%assign authors = site.data.members | sort%}
-                    {% for author in authors%}
-                    {%assign authorKey = author[0]%}
-                    {%assign authorData = author[1]%}
-                    <li class="people-list-item {{authorData.role | downcase}}" data-meta="{{authorData.role}},{{authorData.city}}">
-                        <div class="people-foto"><img src="/img/authors/{{authorKey}}.jpg" alt="{{authorKey}}"/>
-                            <div class="people-role">{{authorData.role}}</div>
+                    
+                    
+                    
+                    
+                    <li class="people-list-item juror" data-meta="Juror,Kraków">
+                        <div class="people-foto"><img src="/img/authors/andrzej.winnicki.jpg" alt="andrzej.winnicki"/>
+                            <div class="people-role">Juror</div>
                         </div>
                         <div class="people-content">
-                            <h3>{{authorData.name}}</h3>
-                            {{authorData.bio | markdownify | truncatewords : 25}}
-                            {%if authorData.www %}
-                            www: <a href="{{authorData.www}}">{{authorData.www}}</a>
-                            {% endif %}
+                            <h3>Andrzej Winnicki</h3>
+                            <p>In Allegro Group since 2013. Software Engineer with 7 years’ experience building code, architecture and technical solutions. Big fan of Agile movement, Scrum framework, Lean...
+                            
                         </div>
                     </li>
-                    {% endfor %}
+                    
+                    
+                    
+                    <li class="people-list-item prelegent" data-meta="Prelegent,Toruń">
+                        <div class="people-foto"><img src="/img/authors/bartlomiej.ignasiak.jpg" alt="bartlomiej.ignasiak"/>
+                            <div class="people-role">Prelegent</div>
+                        </div>
+                        <div class="people-content">
+                            <h3>Bartłomiej Ignasiak</h3>
+                            <p>At Allegro Group since 2009. At work he is interested in highly scalable architectures, microservices, Cassandra database, all technologies around JVM and all aspects of...
+                            
+                        </div>
+                    </li>
+                    
+                    
+                    
+                    <li class="people-list-item juror" data-meta="Juror,Poznań">
+                        <div class="people-foto"><img src="/img/authors/bartosz.walacik.jpg" alt="bartosz.walacik"/>
+                            <div class="people-role">Juror</div>
+                        </div>
+                        <div class="people-content">
+                            <h3>Bartosz Walacik</h3>
+                            <p>A Software Craftsman with 10+ years of professional experience. He focused on lightweight and modern technologies around JVM. At Allegro, he works as a development...
+                            
+                        </div>
+                    </li>
+                    
+                    
+                    
+                    <li class="people-list-item mentor" data-meta="Mentor,Kraków">
+                        <div class="people-foto"><img src="/img/authors/ewa.bugajska.jpg" alt="ewa.bugajska"/>
+                            <div class="people-role">Mentor</div>
+                        </div>
+                        <div class="people-content">
+                            <h3>Ewa Bugajska</h3>
+                            <p>Ewa is a software engineer with 6+ years of professional experience in Java technologies. She is a big fan of clean code. Believes that programming...
+                            
+                        </div>
+                    </li>
+                    
+                    
+                    
+                    <li class="people-list-item mentor" data-meta="Mentor,Poznań">
+                        <div class="people-foto"><img src="/img/authors/filip.marszelewski.jpg" alt="filip.marszelewski"/>
+                            <div class="people-role">Mentor</div>
+                        </div>
+                        <div class="people-content">
+                            <h3>Filip Marszelewski</h3>
+                            <p>Software Development Lead at the team responsible for Allegro listing. Believes that developing software is not only coding and success depends also on many non-technical...
+                            
+                        </div>
+                    </li>
+                    
+                    
+                    
+                    <li class="people-list-item mentor" data-meta="Mentor,Toruń">
+                        <div class="people-foto"><img src="/img/authors/jaroslaw.grabowski.jpg" alt="jaroslaw.grabowski"/>
+                            <div class="people-role">Mentor</div>
+                        </div>
+                        <div class="people-content">
+                            <h3>Jarosław Grabowski</h3>
+                            <p>Jarek works at Allegro Group building big data collecting and processing system. For over three years his daily job has been to implement and troubleshoot...
+                            
+                        </div>
+                    </li>
+                    
+                    
+                    
+                    <li class="people-list-item prelegent" data-meta="Prelegent,Toruń">
+                        <div class="people-foto"><img src="/img/authors/kamil.piska.jpg" alt="kamil.piska"/>
+                            <div class="people-role">Prelegent</div>
+                        </div>
+                        <div class="people-content">
+                            <h3>Kamil Piska</h3>
+                            <p>Kamil is a software engineer with 5+ years of professional experience. He is interested in creating distributed, scalable and fault-tolerant web applications using software design...
+                            
+                        </div>
+                    </li>
+                    
+                    
+                    
+                    <li class="people-list-item juror" data-meta="Juror,Kraków">
+                        <div class="people-foto"><img src="/img/authors/krzysztof.debski.jpg" alt="krzysztof.debski"/>
+                            <div class="people-role">Juror</div>
+                        </div>
+                        <div class="people-content">
+                            <h3>Krzysztof Debski</h3>
+                            <p>Technical enthusiast, software engineer and product owner of Service Bootstrap developed in Allegro. He is open to all new technologies and programming languages and he...
+                            
+                        </div>
+                    </li>
+                    
+                    
+                    
+                    <li class="people-list-item juror" data-meta="Juror,Warszawa">
+                        <div class="people-foto"><img src="/img/authors/krzysztof.kocel.jpg" alt="krzysztof.kocel"/>
+                            <div class="people-role">Juror</div>
+                        </div>
+                        <div class="people-content">
+                            <h3>Krzysztof Kocel</h3>
+                            <p>Krzysztof works at Allegro Group since 2012. He is interested in mobile security and reducing data usage. At Allegro, his main responsibility is developement of...
+                            
+                        </div>
+                    </li>
+                    
+                    
+                    
+                    <li class="people-list-item mentor" data-meta="Mentor,Poznań">
+                        <div class="people-foto"><img src="/img/authors/mateusz.gajewski.jpg" alt="mateusz.gajewski"/>
+                            <div class="people-role">Mentor</div>
+                        </div>
+                        <div class="people-content">
+                            <h3>Mateusz 'Serafin' Gajewski</h3>
+                            <p>Mateusz is a solutions architect responsible for financial and payments systems. His main areas of research interest are: scalable, distributed computing in cloud environments, reactive...
+                            
+                        </div>
+                    </li>
+                    
+                    
+                    
+                    <li class="people-list-item juror" data-meta="Juror,Warszawa">
+                        <div class="people-foto"><img src="/img/authors/michal.kosmulski.jpg" alt="michal.kosmulski"/>
+                            <div class="people-role">Juror</div>
+                        </div>
+                        <div class="people-content">
+                            <h3>Michał Kosmulski</h3>
+                            <p>Michał is interested in all things high-performance, whether it be low-level stuff like analyzing how OS caches affect I/O operations or high-level like proper application...
+                            
+                        </div>
+                    </li>
+                    
+                    
+                    
+                    <li class="people-list-item prelegent" data-meta="Prelegent,Warszawa">
+                        <div class="people-foto"><img src="/img/authors/rafal.glowinski.jpg" alt="rafal.glowinski"/>
+                            <div class="people-role">Prelegent</div>
+                        </div>
+                        <div class="people-content">
+                            <h3>Rafał Głowiński</h3>
+                            <p>Rafał is an experienced software developer who has spent most of his career working in Java and related technologies. His areas of interest include code...
+                            
+                        </div>
+                    </li>
+                    
+                    
+                    
+                    <li class="people-list-item juror" data-meta="Juror,Warszawa">
+                        <div class="people-foto"><img src="/img/authors/rafal.myslek.jpg" alt="rafal.myslek"/>
+                            <div class="people-role">Juror</div>
+                        </div>
+                        <div class="people-content">
+                            <h3>Rafał Mysłek</h3>
+                            <p>Rafał is a software engineer with 10+ years of experience in Java/Spring technologies. He is an enthusiast of modern, lightweight (Microservices), distributed (Cloud), scalable (NoSQL)...
+                            
+                        </div>
+                    </li>
+                    
+                    
+                    
+                    <li class="people-list-item prelegent" data-meta="Prelegent,Warszawa">
+                        <div class="people-foto"><img src="/img/authors/szymon.tur.jpg" alt="szymon.tur"/>
+                            <div class="people-role">Prelegent</div>
+                        </div>
+                        <div class="people-content">
+                            <h3>Szymon Tur</h3>
+                            <p>Szymon is an iOS developer with several years of experience on this platform and web development background. Enthusiast of user friendly mobile applications and modern...
+                            
+                        </div>
+                    </li>
+                    
+                    
+                    
+                    <li class="people-list-item juror" data-meta="Juror,Toruń">
+                        <div class="people-foto"><img src="/img/authors/zbyszko.papierski.jpg" alt="zbyszko.papierski"/>
+                            <div class="people-role">Juror</div>
+                        </div>
+                        <div class="people-content">
+                            <h3>Zbyszko Papierski</h3>
+                            <p>JVM developer with 8 years of professional experience. He&#39;s interested in topics related to search engines, cloud computing and parallel computing. At Allegro, he works...
+                            
+                        </div>
+                    </li>
+                    
                 </ul>
                 </div>
             </div>
@@ -196,4 +373,4 @@ layout: default
     </div>
     <script src="js/brain.js"></script>
 </body>
-</html>
+</html>       
