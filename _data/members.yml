@@ -157,7 +157,9 @@ miroslaw.golda:
 piotr.wicherski:
     name: Piotr Wicherski
     bio: Tester aplikacji mobilnych z 7-letnim doświadczeniem na rynku mobile. Pasjonat mobilnych urządzeń i systemów oepracyjnych.	
-    role: Mentor, Prelegent
+    role: 
+        - Mentor
+        - Prelegent
     city: Warszawa                         
 
 artur.stepniewski:
@@ -181,7 +183,9 @@ ernest.bursa:
 przemyslaw.libudzic:
     name: Przemysław Libudzic
     bio: Tester aplikacji na iOS i Androida, śledzący z zapartym tchem wszelkie nowinki technologiczne. Posiadacz zbyt dużej liczby gier i książek, fan seriali z UK/USA.
-    role: Mentor, Prelegent
+    role: 
+        - Mentor
+        - Prelegent
     city: Kraków                        
 
 dorota.leszczynska:
@@ -205,13 +209,17 @@ maciej.koziel:
 piotr.krystyniak:
     name: Piotr Krystyniak
     bio: Moje zainteresowania zawodowe koncentrują się wokół platformy Android, której jestem szczerym entuzjastą. Na co dzień pracuję w Appunite budując aplikacje mobilne. Poza pracą również czynnie uczestniczę w różnorodnych eventach programistycznych - jestem m.in. zwycięzcą zeszłorocznej edycji hackathonu Braincode oraz współorganizatorem spotkań z cyklu Poznań Android Developer Group. 
-    role: Mentor, Prelegent
+    role: 
+        - Mentor
+        - Prelegent
     city: Poznań                     
 
 piotr.bernard:
     name: Piotr Bernard
     bio: Piotr Bernad, developer iOS z 3 letnim doświadczeniem. Właściciel firmy Soft Bakery, zajmującej się tworzeniem aplikacji moblinych na iOS. Współpracuje z poznańskimi firmami, takimi jak Appunite Sp. z o.o. i App n Down. Założyciel Koła Naukowego na Politechnice Poznańskiej o tematyce mobile. Pasjonata dobrego designu, stawiający na pierwszym miejscu użytkowanika aplikacji i jego experience. Aktualnie poświęca dużo czasu na realizacje swoich pomysłów, o których będzie można usłyszeć już wkrótce.	
-    role: Mentor, Prelegent
+    role: 
+        - Mentor
+        - Prelegent
     city: Poznań
     
 bartlomiej.kwiatkowski:
