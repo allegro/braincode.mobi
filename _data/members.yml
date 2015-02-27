@@ -251,5 +251,10 @@ mateusz.gajewski:
     bio: Architekt, innowator, zawadiaka. Główne zainteresowania to HA, failure isolation, skalowalność, programowanie reaktywne i systemy web-scale.
     role: Mentor
     city: Warszawa
-    
+
+grzegorz.andrejczyn:
+    name: Grzegorz Andrejczyn
+    bio: Programista z wieloletnim doświadczeniem. Związany z Grupą Allegro od 3 lat. Aktualnie odpowiedzialny za zabezpieczenia antyfraudowe na platformie Allegro.
+    role: Mentor
+    city: Kraków
                                                                                        
