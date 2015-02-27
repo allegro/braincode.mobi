@@ -25,7 +25,9 @@ miroslaw.kubiak:
 mateusz.stepniak:
     name: Mateusz Stępniak
     bio: Działa w świecie backend'owym w technologiach java i nodejs z nastawieniem na dostarczanie usług dla klientów mobilnych. W Allegro odpowiedzialny za REST API Allegro.
-    role: Mentor
+    role: 
+        - Mentor
+        - Organizator
     city: Poznań
 
 lukasz.stocki:
@@ -248,8 +250,10 @@ rafal.polomka:
     
 mateusz.gajewski:
     name: Mateusz Gajewski
-    bio: Architekt, innowator, zawadiaka. Główne zainteresowania to HA, failure isolation, skalowalność, programowanie reaktywne i systemy web-scale.
-    role: Mentor
+    bio: Architekt, innowator, zawadiaka. Kiedy nie rozmyśla o HA, failure isolation, skalowalności, programowaniu reaktywnym i systemach web-scale lubi podróżować po Azji.
+    role: 
+        - Mentor
+        - Organizator
     city: Warszawa
 
 grzegorz.andrejczyn:
@@ -261,6 +265,19 @@ grzegorz.andrejczyn:
 michal.karwanski:
     name: Michał Karwański
     bio: Architekt oprogramowania mobilnego, programista iOS od 5 lat. W wolnych chwilach namiętny kibic sportowy oraz miłośnik matematyki rekreacyjnej, łamigłówek i wszelkich wyzwań intelektualnych.
-    role: Mentor
+    role: 
+        - Mentor
+        - Organizator
     city: Warszawa
-
+    
+paulina.mazurek:
+    name: Paulina Mazurek
+    bio: "Pracowała jako Program Manager w krakowskim oddziale Google, gdzie odpowiadała za kilka projektów, między innymi Google for Entrepreneurs Krakow (GEK), którego celem było budowanie ekosystemu wspierającego polskich obecnych i przyszłych przedsiębiorców. W maju 2013 dzieliła się tym doświadczeniem w Ghanie, gdzie jako wolontariuszka pracowała z tamtejszymi organizacjami charytatywnymi, developerami oraz małymi i średnimi przedsiębiorstwami pomagając im przygotowywać modele zrównoważonego rozwoju. Obecnie jako Program Manager w centrum badawczo-rozwojowym Allegro w Krakowie odpowiada za działania związane z promowaniem technologii, wzmacnianie wizerunku Allegro jako firmy technologicznej pod szyldem Allegro.tech oraz wsparcie polskich społeczności developerskich i startupowych."
+    role: Organizator
+    city: Warszawa
+    
+kuba.probola:
+    name: Kuba Probola
+    bio: "Dyrektor <a href='http://www.hubraum.com'>hub:raum Kraków</a> - Centrum Innowacyjności Deutsche Telekom dla startupów z regionu Europy Środkowo-Wschodniej.  Wcześniej pełnił funkcję Kierownika Działu Innowacyjności w T-Mobile. Od początku swojej kariery zawodowej był odpowiedzialny za wdrażanie nowych technologii oraz rozwój produktów. Ze środowiskiem startupów związany od kilku lat. Był mentorem BIC Summer Start czy GammaRebels oraz członkiem jury m.in. podczas Bitspiration i Startup Weekend Warsaw. Prywatnie jest fanem lotnictwa i biegania."
+    role: Jury
+    city: Kraków    
