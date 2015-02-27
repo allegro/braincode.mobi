@@ -138,7 +138,9 @@
             var city = getCity();
             if (city !== '') {
                 showPeopleFromCity(city);
+                document.querySelector('input[value=' + city + ']').checked = true;
             }
+
             document.getElementById('city-list').addEventListener('change', function(e) {
                 var el = e.target;
                 if (el.tagName === 'INPUT') {
