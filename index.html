@@ -150,12 +150,11 @@ layout: default
                         {%assign authorData = author[1]%}
                         <li class="people-list-item {{authorData.role | downcase}}" data-meta="{{authorData.role}},{{authorData.city}}">
                             <div class="people-foto"><img src="/img/authors/{{authorKey}}.jpg" alt="{{authorKey}}"/>
-                                <div class="people-role">{{authorData.role | join:', ' | downcase}}</div>
+                                <div class="people-role"><h3>{{authorData.name}}</h3> {{authorData.role | join:', ' | downcase}} </div>
                             </div>
                             <div class="people-content">
-                                <h3>{{authorData.name}}</h3>
                                 {%if authorData.bio %}
-                                {{authorData.bio | markdownify | truncatewords : 23}}
+                                {{authorData.bio | markdownify | truncatewords : 100}}
                                 {% endif %}
                             </div>
                         </li>
