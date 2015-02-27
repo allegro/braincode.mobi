@@ -28,22 +28,22 @@ layout: default
         <meta property="twitter:image" content="http://braincode.mobi/img/braincode.png" />
         <link rel="stylesheet" href="css/brain.css" />
         <script>
-                                                                        (function(d) {
-                                                                            var config = {
-                                                                            kitId: 'ikz6emw',
-                                                                            scriptTimeout: 3000
-                                                                            },
-                                                                            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-                                                                        })(document);
+                                                                                        (function(d) {
+                                                                                            var config = {
+                                                                                            kitId: 'ikz6emw',
+                                                                                            scriptTimeout: 3000
+                                                                                            },
+                                                                                            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+                                                                                        })(document);
         </script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHeNjvpxNkS6Pw3zDKgoKa9LIEL89mUWg"></script>
         <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-59754581-1', 'auto');
-                    ga('send', 'pageview');
+                                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                                        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                                            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                                    ga('create', 'UA-59754581-1', 'auto');
+                                    ga('send', 'pageview');
         </script>
     </head>
     <body>
@@ -132,6 +132,44 @@ layout: default
                 <iframe src="https://www.youtube.com/embed/Wpxm1EN9QgA" frameborder="0" allowfullscreen></iframe>
             </div>
         </section>
+        <section id="people" class="people">
+            <div class="content">
+                <h2>Jurorzy, mentorzy, prelegenci</h2>
+                <ul class="city-list" id="city-list">
+                    <li><input type="radio" name="city" value="Poznań" id="p1"><label for="p1">Poznań</label></li>
+                    <li><input type="radio" name="city" value="Warszawa" id="p2"><label for="p2">Warszawa</label></li>
+                    <li><input type="radio" name="city" value="Kraków" id="p3"><label for="p3">Kraków</label></li>
+                    <li><input type="radio" name="city" value="Toruń" id="p4"><label for="p4">Toruń</label></li>
+                    <li><input type="radio" name="city" value="" id="p5" checked="checked"><label for="p5">Wszystkie miasta</label></li>
+                </ul>
+                <div class="people-list-container">
+                    <ul class="people-list">
+                        {%assign authors = site.data.members | sort%}
+                        {% for author in authors%}
+                        {%assign authorKey = author[0]%}
+                        {%assign authorData = author[1]%}
+                        <li class="people-list-item {{authorData.role | downcase}}" data-meta="{{authorData.role}},{{authorData.city}}">
+                            <div class="people-foto"><img src="/img/authors/{{authorKey}}.jpg" alt="{{authorKey}}"/>
+                                <div class="people-role">{{authorData.role | join:', ' | downcase}}</div>
+                            </div>
+                            <div class="people-content">
+                                <h3>{{authorData.name}}</h3>
+                                {%if authorData.bio %}
+                                {{authorData.bio | markdownify | truncatewords : 23}}
+                                {% endif %}
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="support" class="support">
+            <div class="content">
+                <h2>Wspierają nas</h2>
+                <p><a href="http://coronalabs.com/"><img src="/img/coronalabs-logo.png" alt="corona labs" /></a></p><p><a href="https://www.hubraum.com"><img src="/img/hubraum-logo.png" alt="hub:raum" /></a></p>
+            </div>
+        </section>
         <section id="partners" class="partners">
             <div class="content">
                 <h2>Partnerzy</h2>
@@ -145,47 +183,6 @@ layout: default
                 <a href="http://allegrotech.io"><img src="img/allegrotech.png" alt="allegro tech"/></a>
             </div>
         </section>
-        <section id="support" class="support">
-            <div class="content">
-                <h2>Wspierają nas</h2>
-                <p><a href="http://coronalabs.com/"><img src="/img/coronalabs-logo.png" alt="corona labs" /></a></p><p><a href="https://www.hubraum.com"><img src="/img/hubraum-logo.png" alt="hub:raum" /></a></p>
-            </div>
-        </section>
-
-        <section id="people" class="people">
-            <div class="content">
-                <h2>Jurorzy, mentorzy, prelegenci</h2>
-
-                <ul class="city-list" id="city-list">
-                    <li><input type="radio" name="city" value="Poznań" id="p1"><label for="p1">Poznań</label></li>
-                    <li><input type="radio" name="city" value="Warszawa" id="p2"><label for="p2">Warszawa</label></li>
-                    <li><input type="radio" name="city" value="Kraków" id="p3"><label for="p3">Kraków</label></li>
-                    <li><input type="radio" name="city" value="Toruń" id="p4"><label for="p4">Toruń</label></li>
-                    <li><input type="radio" name="city" value="" id="p5" checked="checked"><label for="p5">Wszystkie miasta</label></li>
-                </ul>
-                <div class="people-list-container">
-                <ul class="people-list">
-                    {%assign authors = site.data.members | sort%}
-                    {% for author in authors%}
-                    {%assign authorKey = author[0]%}
-                    {%assign authorData = author[1]%}
-                    <li class="people-list-item {{authorData.role | downcase}}" data-meta="{{authorData.role}},{{authorData.city}}">
-                        <div class="people-foto"><img src="/img/authors/{{authorKey}}.jpg" alt="{{authorKey}}"/>
-                            <div class="people-role">{{authorData.role | join:', ' | downcase}}</div>
-                        </div>
-                        <div class="people-content">
-                            <h3>{{authorData.name}}</h3>
-                            {%if authorData.bio %}
-                            {{authorData.bio | markdownify | truncatewords : 23}}
-                            {% endif %}
-                        </div>
-                    </li>
-                    {% endfor %}
-                </ul>
-                </div>
-            </div>
-        </section>
-
         </main>
         <footer>
             <div class="content">

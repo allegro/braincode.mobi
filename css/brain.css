@@ -172,7 +172,8 @@ section p {
     background: rgba(255, 255, 255, 0.2);
 }
 .support {
-    background: rgba(0, 0, 0, 0.5);
+    background: #eee;
+    color: #333;
 }
 
 .support p{
@@ -298,8 +299,8 @@ footer .content {
 
 
 .hide {
-    -webkit-transform: translate3d(0, -3000px, 3em) scale(0.35);
-    transform: translate3d(0, -3000px, 3em) scale(0.35);
+    -webkit-transform: translate3d(0, -3000px, 3em);
+    transform: translate3d(0, -3000px, 3em);
 }
 .remove {
     display: none;
