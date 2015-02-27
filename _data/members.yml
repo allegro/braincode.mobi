@@ -280,4 +280,10 @@ kuba.probola:
     name: Kuba Probola
     bio: "Dyrektor <a href='http://www.hubraum.com'>hub:raum Kraków</a> - Centrum Innowacyjności Deutsche Telekom dla startupów z regionu Europy Środkowo-Wschodniej.  Wcześniej pełnił funkcję Kierownika Działu Innowacyjności w T-Mobile. Od początku swojej kariery zawodowej był odpowiedzialny za wdrażanie nowych technologii oraz rozwój produktów. Ze środowiskiem startupów związany od kilku lat. Był mentorem BIC Summer Start czy GammaRebels oraz członkiem jury m.in. podczas Bitspiration i Startup Weekend Warsaw. Prywatnie jest fanem lotnictwa i biegania."
     role: Jury
-    city: Kraków    
+    city: Kraków  
+    
+krzysztof.debski:
+    name: Krzysztof Dębski
+    bio: Developer, architekt i product owner w Grupie Allegro. Entuzjasta nowych technologii i rozbijania monolitów na małe aplikacje.	
+    role: Mentor
+    city: Kraków  
