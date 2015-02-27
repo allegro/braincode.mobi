@@ -1,4 +1,4 @@
-    /* global google */
+    /* global google, smoothScroll */
     (function() {
         function initialize() {
             var mapOptions = {
@@ -95,9 +95,6 @@
             });
         }
         google.maps.event.addDomListener(window, 'load', initialize);
-
-
-        
         var peopleList = document.querySelector('.people-list');
         var peopleNode = [].slice.call(document.querySelectorAll('.people-list-item'));
         var rememberCity = function(city) {
@@ -155,4 +152,14 @@
             });
         };
         peopleInit();
+        smoothScroll.init({
+            speed: 500,
+            easing: 'easeInOutCubic',
+            callbackBefore: function() {
+                document.body.style.backgroundAttachment = 'scroll';
+            },
+            callbackAfter: function() {
+                document.body.style.backgroundAttachment = 'fixed';
+            }
+        });
     })();
