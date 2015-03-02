@@ -7,7 +7,7 @@ marek.banaszak:
 krzysiek.szlapinski:
     name: Krzysiek Szłapiński
     bio: Programista fullstackowy, z pasją do skalowalnych architektur. Służbowo rozwija core'owe funkcjonalności allegro od paru lat. Prywatnie realizuje swoją pasję tworząc gry na urządzenia mobilne wraz ze swoim jedenastoletnim synem.
-    role: Mentor
+    role: Prelegent
     city: Poznań
     
 pawel.kwiecinski:
@@ -253,6 +253,7 @@ mateusz.gajewski:
     role: 
         - Mentor
         - Organizator
+        - Jury
     city: Warszawa
 
 grzegorz.andrejczyn:
@@ -267,6 +268,7 @@ michal.karwanski:
     role: 
         - Mentor
         - Organizator
+        - Jury
     city: Warszawa
     
 paulina.mazurek:
