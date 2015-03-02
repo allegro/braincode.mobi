@@ -292,3 +292,15 @@ mariusz.wojtysiak:
     bio: Deweloper tworzący usługi REST wykorzystywane przez aplikacje mobilne. Wykłada na UAM przedmiot "Implementacja restowego API". Chętnie pomoże skonsumować API Allegro.
     role: Mentor
     city: Poznań
+    
+joanna.antkowiak:
+    name: Joanna Antkowiak
+    bio: Specjalista ds eventów w Grupie Allegro. Razem z Pauliną Mazurek tworzy zespół Promo IT czyli dział zajmujący się promowaniem technologii, wzmacnianiem wizerunku Allegro jako firmy technologicznej pod szyldem Allegro.tech oraz organizowaniem wydarzeń dla środowiska IT. Prywatnie, niespokojny duch, nieustannie w podróży.
+    role: Organizator
+    city: Poznań
+
+lukasz.ozimek:
+    name: Łukasz Ozimek
+    bio: Head of Smart Space - inkubatora dla startupów technologicznych, będącego częścią Exea Data Center. Zaangażowany w rozbudowę i rozwoju działalności Toruńskiego Parku Technologicznego oraz utworzenie Exea Data Center. Od 2009 roku zawodowo związany z Toruńską Agencją Rozwoju Regionalnego S.A. pracując na Samodzielnym stanowisku ds. wsparcia Zarządu. Animator toruńskiej sceny startupowej.
+    role: Jury
+    city: Toruń
