@@ -287,3 +287,9 @@ krzysztof.debski:
     bio: Developer, architekt i product owner w Grupie Allegro. Entuzjasta nowych technologii i rozbijania monolitów na małe aplikacje.	
     role: Mentor
     city: Kraków  
+
+mariusz.wojtysiak:
+    name: Mariusz Wojtysiak
+    bio: Deweloper tworzący usługi REST wykorzystywane przez aplikacje mobilne. Wykłada na UAM przedmiot "Implementacja restowego API". Chętnie pomoże skonsumować API Allegro.
+    role: Mentor
+    city: Poznań
