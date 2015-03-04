@@ -176,11 +176,12 @@ section p {
     color: #333;
 }
 
-.support-list ul{
+.support-list{
     text-align: center;
+    direction: block;
 }
 
-.support-list  ul,
+.support-list,
 .support-list li{
     display: inline-block;
     vertical-align: top;
