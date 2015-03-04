@@ -176,11 +176,18 @@ section p {
     color: #333;
 }
 
-.support p{
+.support-list ul{
     text-align: center;
+}
+
+.support-list  ul,
+.support-list li{
+    display: inline-block;
+    vertical-align: top;
 }
 .support img{
     max-width: 80%;
+    margin: 10px;
 }
 
 footer {
