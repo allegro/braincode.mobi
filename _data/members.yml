@@ -327,3 +327,10 @@ jacek.danda:
         - Mentor
         - Jury
     city: Kraków
+zbyszko.papierski:
+    name: Zbyszko Papierski
+    bio: Architekt rozwiązań w Grupie Allegro, z firmą związany od 4 lat. Współorganizator toruńskiego JUGa i zapalony gracz.
+    role: 
+        - Organizator
+        - Jury
+    city: Toruń
