@@ -314,6 +314,8 @@ piotr.szczesny:
     role: Jury
     city: Poznań
 
-
-
-    
+krzysztof.zablocki:
+    name: Krzysztof Zabłocki
+    bio: "Krzysztof jest współzałożycielem Pixle, twórców wielokrotnie nagradzanego Foldify, aktualnie pracuje w Mashable. Poprzednio kierował zespołem 10+ programistów w Londynie kierując produkcją takich aplikacji jak Sun+ Goals, The Times. Programista pasjonat, pracował nad szerokim zakresem aplikacji, od typowo biznesowych po gry. Więcej informacji można znaleźć na <a href='http://merowing.info/about.'>merowing.info/about</a>"
+    role: Jury
+    city: Warszawa    
