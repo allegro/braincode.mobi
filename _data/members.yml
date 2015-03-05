@@ -318,4 +318,12 @@ krzysztof.zablocki:
     name: Krzysztof Zabłocki
     bio: "Krzysztof jest współzałożycielem Pixle, twórców wielokrotnie nagradzanego Foldify, aktualnie pracuje w Mashable. Poprzednio kierował zespołem 10+ programistów w Londynie kierując produkcją takich aplikacji jak Sun+ Goals, The Times. Programista pasjonat, pracował nad szerokim zakresem aplikacji, od typowo biznesowych po gry. Więcej informacji można znaleźć na <a href='http://merowing.info/about.'>merowing.info/about</a>"
     role: Jury
-    city: Warszawa    
+    city: Warszawa  
+
+jacek.danda:
+    name: Jacek Dańda
+    bio: 1994-1998 studia na AGH, kierunek Elektronika i Telekomunikacja. Laureat stypendium FPT. 1997-1998 ComArch Systemy Sieciowe i ComArch S.A. 1998-1999 Comprex. 1998-2005 asystent w Katedrze Telekomunikacji AGH. 2005-2010 wykładowca w KT AGH. 2006-2009 programista dla Collegium Medicum i Centrum Innowacji, Transferu Technologii i Rozwoju Uniwersytetu Jagiellońskiego. 2010 tytuł doktora nauk technicznych na AGH. Od 2011 adiunkt w KT AGH. Udział w licznych projektach badawczo-naukowych, zarówno finansowanych przez UE (Daidalos, Daidalos2, Content, Enext, Desyme, ACTS BBL “Broadband Loop”, ProAccess, Healthware, mPower, INDECT, Insigma i inne), jak i krajowych. Badania dla przemysłu. Autor ok. 50 publikacji z zakresu telekomunikacji przewodowej, bezprzewodowej, satelitarnej, teleinformatyki i telemedycyny.  
+    role: 
+        - Mentor
+        - Jury
+    city: Kraków
