@@ -296,8 +296,8 @@ footer .content {
     bottom: 0;
     background: rgba(255, 255, 255, 0.9);
     padding: 10px;
-    -webkit-transform: translate3d(0, -900px, 3em);
-    transform: translate3d(0, -900px, 3em);
+    -webkit-transform: translate3d(0, -1100px, 3em);
+    transform: translate3d(0, -1100px, 3em);
     transition: 0.6s;
 }
 

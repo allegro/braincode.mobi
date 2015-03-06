@@ -327,6 +327,7 @@ jacek.danda:
         - Mentor
         - Jury
     city: Kraków
+
 zbyszko.papierski:
     name: Zbyszko Papierski
     bio: Architekt rozwiązań w Grupie Allegro, z firmą związany od 4 lat. Współorganizator toruńskiego JUGa i zapalony gracz.
@@ -334,3 +335,24 @@ zbyszko.papierski:
         - Organizator
         - Jury
     city: Toruń
+
+dominik.barwacz:
+    name: Dominik Barwacz
+    bio: Programista i miłośnik aplikacji mobilnych na platformę Android. Entuzjasta idei i klimatu hackatonów. Bezkompromisową dbałość o wysoką jakość i przejrzystość kodu równoważy poczuciem humoru.
+    role: Mentor
+    city: Kraków
+
+jacek.kurbiel:
+    name: Jacek Kurbiel
+    bio: Programista iOS z pasji i powołania. Po godzinach pracy wspiera firmową drużynę siatkówki. Przez wiele lat działał w Studenckim Radio17, gdzie prowadził audycje jazzowe, w wolnych chwilach fotografuje.
+    role: Mentor
+    city: Kraków
+
+konrad.przyludzki:
+    name: Konrad Przyłudzki
+    bio: CEO Softnauts. Doświadczony przedsiębiorca i programista. Założyciel firmy Softnauts działającej z sukcesem na międzynarodowym rynku produkcji gier i aplikacji mobilnych oraz rozwiązań SaaS. Entuzjasta idei Internet of Things.
+    role: Jury
+    city: Kraków
+
+
+
