@@ -354,5 +354,21 @@ konrad.przyludzki:
     role: Jury
     city: Kraków
 
+krzysztof.osmulski:
+    name: Krzysztof Osmulski  
+    bio: Programista z doświadczeniem Javowym. Od małych urządzeń do większych i całkiem dużych.. Ostatnio jakiś czas w androidzie. Zainteresowany automatyzacją i szeroko pojętym Continuous Integration. Po godzinach wychowuje córke.
+    role: 
+        - Jury
+        - Mentor
+    city: Kraków
+
+julia.kamilewicz:
+    name: Julia Kamilewicz    
+    bio: Programistka z paroletnim doświadczeniem. Specjalizująca się w pisaniu aplikacji na telefony androidowe. Lubi słuchać muzyki.
+    role: Mentor
+    city: Kraków
+
+
+
 
 
