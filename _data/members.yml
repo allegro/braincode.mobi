@@ -34,7 +34,9 @@ mateusz.stepniak:
 lukasz.stocki:
     name: Łukasz Stocki
     bio: Młody, zdolny, niekoniecznie poważny developer iOS ;)
-    role: Mentor
+    role: 
+        - Mentor
+        - Prelegent
     city: Warszawa
 
 konrad.dziedzic:
@@ -46,7 +48,9 @@ konrad.dziedzic:
 pawel.lopusinski:
     name: Paweł Łopusiński	
     bio: Od prawie 3 lat programista iOS z lenistwa szukający krótszych i łatwiejszych rozwiązań. Kiedy nie programuje - gra w planszówki.
-    role: Mentor
+    role: 
+        - Mentor
+        - Prelegent
     city: Warszawa
     
 kamil.pyc:
