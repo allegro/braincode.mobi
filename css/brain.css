@@ -178,7 +178,7 @@ section p {
 
 .support-list{
     text-align: center;
-    direction: block;
+    padding: 0;
 }
 
 .support-list,
