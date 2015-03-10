@@ -110,7 +110,9 @@ jedrzej.krysztofiak:
 krzysiek.kowalkowski:
     name: Krzysiek Kowalkowski
     bio: "UX. Sfokusowany na mobilnych apkach. Wtrącający się w tematy biznesowe ogarniacz chaosu. Uwielbia zadawać pytania: \"dlaczego?\" i \"po co?\". Cechy szczególnie rozwijane: empatia i inteligencja emocjonalna."
-    role: Mentor
+    role: 
+        - Mentor
+        - Jury
     city: Warszawa                        
     
 pawel.czubachowski:
