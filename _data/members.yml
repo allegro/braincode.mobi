@@ -434,8 +434,6 @@ szymon.wasik:
     role: Jury
     city: Poznań
 
-
-
 adam.gic:
     name: Adam Gic
     bio: "Programista z różnorodnym doświadczeniem. Zajmował się zawodowo programowaniem w PHP, Perl, Ansi C, C++, Java, oraz Objective-C. Szczególne zainteresowania to Lex, Yacc i AWK, oraz przetwarzanie tekstu i obrazów."
@@ -455,3 +453,10 @@ michal.matlosz:
     bio: Od 7 lat związany z Grupą Allegro. Ten mile spędzany czas pozwolił mi wejść w buty Programisty PHP i Java, Product Ownera oraz Scrum Mastera. Aktualnie lider zespołu, po godzinach próbuję swoich sił na platformie Android.
     city: Toruń
     role: Mentor
+    
+piotr.orzechowski:
+    name: Piotr Orzechowski
+    bio: "Software development manager w Allegro. Z technologiami mobilnymi związany od czasów świetności Symbiana i J2ME. Entuzjasta otwartego oprogramowania, Linuksa i nowinek technicznych. Podąża własnymi ścieżkami, niekoniecznie udeptanymi. Reformator. Jak tylko nadarzy się taka okazja - poleci w kosmos. ;)"
+    city: Warszawa
+    role: Jury        
+        
