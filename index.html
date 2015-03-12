@@ -158,7 +158,14 @@ layout: default
                         {% for author in authors%}
                         {%assign authorKey = author[0]%}
                         {%assign authorData = author[1]%}
-                        <li class="people-list-item {{authorData.role | downcase}}" data-meta="{{authorData.role}},{{authorData.city}}">
+
+                        {% if authorData.role[0] %}
+                        {%assign roleClass = authorData.role[0]%}
+                        {% else %}
+                        {%assign roleClass = authorData.role%}
+                        {% endif %}
+
+                        <li class="people-list-item {{roleClass | downcase}}" data-meta="{{authorData.role}},{{authorData.city}}">
                             <div class="people-foto"><img src="/img/authors/{{authorKey}}.jpg" alt="{{authorKey}}"/>
                                 <div class="people-role"><h3>{{authorData.name}}</h3> {{authorData.role | join:', ' | downcase}} </div>
                             </div>
