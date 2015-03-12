@@ -118,7 +118,9 @@ krzysiek.kowalkowski:
 pawel.czubachowski:
     name: Paweł Czubachowski
     bio: Programista java interesujący się automatyzacją procesów, architekturą oraz jakością kodu. Z urządzeń mobilnych preferuje blackberry. Zawsze nakierowany na cel, nie lubię robić niepotrzebnych rzeczy. Po pracy preferuję aktywne spędzanie czasu.	
-    role: Prelegent
+    role: 
+        - Mentor
+        - Prelegent
     city: Toruń                        
     
 michal.olszewski:
@@ -160,7 +162,9 @@ adam.grzegorowski:
 miroslaw.golda:
     name: Mirosław Gołda
     bio: Programista Java. Od blisko 4 lat związany z Grupą Allegro, gdzie pracuje głównie po stronie backendu, choć lubi też czasem popracować nad frontendem aplikacji. Prywatnie użytkownik urządzeń z systemem Android i miłośnik gry planszowej backgammon, zwanej też tryktrakiem.	
-    role: Prelegent 
+    role: 
+        - Mentor
+        - Prelegent 
     city: Toruń                         
 
 piotr.wicherski:
