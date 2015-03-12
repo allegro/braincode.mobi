@@ -380,6 +380,63 @@ marta.komar:
     role: Prelegent
     city: Warszawa
 
+andrzej.dolinski:   
+    name: Andrzej Doliński
+    bio: Tester oprogramowania z blisko dwu letnim doświadczeniem. Swoją pasję do jakości oraz doświadczenia jako zwykły użytkownik Internetu przenosi na codzienną pracę wymagając dbałości o szczegóły od siebie i innych . Po pracy student Informatyki oraz członek Akademickiego Koła Aplikacji Internetowych AKAI. Fan HTC, dobrego jedzenia oraz swojej koszatniczki.
+    role: Prelegent
+    city: Poznań
+
+grzegorz.miebs:    
+    name: Grzegorz Miebs
+    bio: Programista androida z rocznym doświadczeniem. Na drugim miejscu w liście zainteresowań web development. W wolnym czasie energię rozładowuje biegając.
+    role: Prelegent
+    city: Poznań
+
+krzysztof.krzywdzinski: 
+    name: Krzysztof Krzywdziński
+    bio: 
+    role: Prelegent
+    city: Poznań
+
+bartek.ziolkowski: 
+    name: Bartek Ziółkowski
+    bio: 
+    role: Prelegent
+    city: Poznań
+
+tomasz.pilka:
+    name: Tomasz Piłka
+    bio: Pracownik Wydziału Matematyki i Informatyki UAM koordynujący wdrożenia i rozwój oprogramowania, od wielu lat zaangażowany w proces popularyzacji nauk ścisłych. Entuzjasta nowych technologii i nowinek technologicznych.
+    role:
+        - Jury
+        - Organizator
+    city: Poznań
+
+filip.rozanski:   
+    name: Filip Różański
+    bio: Początkujący programista Java EE. Uważa front-end za zło konieczne. Bardziej od programowania interesują go tylko narzędzia, które ułatwiają pracę nad kodem. Prywatnie lubi pływać, jeździć na nartach i słuchać dobrej muzyki.      
+    role: Prelegent
+    city: Poznań
+
+krzysztof.dyczkowski:  
+    name: Krzysztof Dyczkowski
+    bio: "Ekspert w obszarze przetwarzania informacji nieprecyzyjnej w systemach decyzyjnych, widzeniu komputerowym i modelowaniu języka naturalnego. Koordynator zespołu recenzyjnego programu <a href='http://innovationhub-usptc.org'>US-Poland Innovation Hub</a>. Absolwent prestiżowego programu MNiSW: <a href='http://top500innovators.org'>Top 500 Innovators – Science-Management - Commercialization</a>. Laureat nagrody IBM Faculty Award."
+    role: Organizator
+    city: Poznań
+
+szymon.wasik:
+    name: Szymon Wasik
+    bio: Szymon Wąsik jest adiunktem w Instytucie Informatyki Politechniki Poznańskiej. Zajmuje się problemami naukowymi w bioinformatyce oraz projektowaniem oprogramowania operatorskiego. Czas wolny spędza z żoną i trójką córek.
+    role: Jury
+    city: Poznań
+
+
+
+
+
+
+
+
 
 
 

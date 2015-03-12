@@ -258,8 +258,8 @@ footer .content {
 }
 .people-list-item {
     box-sizing: border-box;
-    -webkit-flex: 1 1 150px;
-    flex: 1 1 150px;
+    -webkit-flex: 0 1 175px;
+    flex: 0 1 175px;
     padding: 15px;
     margin: 7px;
     color: #333;
@@ -269,6 +269,14 @@ footer .content {
     border-radius: 5px;
     box-shadow: 1px 1px 2px #999;
 }
+
+@media all and (max-width:400px) {
+    .people-list-item{
+        -webkit-flex: 1 1 130px;
+        flex: 1 1 130px;
+    }
+}
+
 
 .people-list-item img {
     max-width: 200px;
