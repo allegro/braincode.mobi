@@ -432,12 +432,22 @@ szymon.wasik:
 
 
 
+adam.gic:
+    name: Adam Gic
+    bio: "Programista z różnorodnym doświadczeniem. Zajmował się zawodowo programowaniem w PHP, Perl, Ansi C, C++, Java, oraz Objective-C. Szczególne zainteresowania to Lex, Yacc i AWK, oraz przetwarzanie tekstu i obrazów."
+    city: Poznań
+    role:
+        - Mentor
+        - Prelegent
 
+katarzyna.suszczynska:
+    name: Katarzyna Suszczyńska
+    bio: Tester oprogramowania z 8 letnim doświadczeniem (6 lat w Grupie Allegro). Zajmuję się testami oraz automatyzacją testów UI aplikacji mobilnej na Androida.
+    city: Poznań
+    role: Mentor
 
-
-
-
-
-
-
-
+michal.matlosz:
+    name: Michał Matłosz
+    bio: Od 7 lat związany z Grupą Allegro. Ten mile spędzany czas pozwolił mi wejść w buty Programisty PHP i Java, Product Ownera oraz Scrum Mastera. Aktualnie lider zespołu, po godzinach próbuję swoich sił na platformie Android.
+    city: Toruń
+    role: Mentor
