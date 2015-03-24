@@ -433,3 +433,43 @@ nav a:hover{
 }
 
 
+.winners{
+    overflow: hidden;
+    padding: 0 0 2rem 0;
+    background: rgba(3,3,3,0.45);
+}
+
+.winners img{
+    display: block;
+    float: none;
+    width: 360px;
+    max-width: 100%;
+    margin: 0 3rem 0.4rem 0;
+    border: 0.5rem solid #fff;
+}
+
+
+@media all and (min-width:479px) {
+    .winners img {
+        float: left       
+    }
+}
+
+
+.winners ul{
+    padding: 2rem auto;
+}
+.winners hr,
+.winners h3{
+    clear: both;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.winners h3{
+    text-transform: uppercase;
+}
+
+.winners hr{
+    visibility: hidden;
+}
