@@ -473,3 +473,13 @@ nav a:hover{
 .winners hr{
     visibility: hidden;
 }
+
+
+a{
+    color: inherit;
+    text-decoration: underline;
+}
+video{
+    max-width: 100%;
+    width: 100%;
+}
