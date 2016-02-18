@@ -2,6 +2,9 @@
 title: Braincode Mobi
 menu: false
 
+gems:
+  - jekyll-redirect-from
+
 baseurl: ""
 url: "http://braincode.mobi"
 twitter_username: AllegroTechBlog
@@ -16,4 +19,3 @@ kramdown:
     input: GFM
     coderay_line_numbers: nil
 permalink: /:title.html
-
